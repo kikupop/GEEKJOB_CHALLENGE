@@ -1,0 +1,14 @@
+<%-- 
+    Document   : newjsp
+    Created on : 2018/04/22, 17:37:02
+    Author     : kick
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+
+<%
+    String text = "‹eŽŸ”¹l";
+    out.print("Ž„‚Ì–¼‘O‚Í" + text + "‚Å‚·");
+    
+%>
