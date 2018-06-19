@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./query_string_input.jsp" method="post">
+              <!-- formタグで括られた入力項目はこれら -->
+              <!--total=購入した商品の総額 count=購入した商品の数量 type=商品種別１、雑貨２、生鮮食品３、その他-->
+              購入した商品の総額<input type="text" name="total">円。
+              購入した商品の数量<input type="text" name="count">個。
+              <!--<input type="checkbox" name="type">-->
+              <input type="radio" name="type" value="1">雑貨
+              <input type="radio" name="type" value="2">生鮮食品
+              <input type="radio" name="type" value="3">その他
+              
+              <!--<input type="button" name="btnTest">-->
+              <input type="submit" name="btnSubmit">
+
+              <!--<select name="cmbList"></select>-->
+              <!--<textarea name="mulText"></textarea>-->
+            </form>
+        
+        
+        
+    </body>
+</html>
