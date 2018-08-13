@@ -1,0 +1,28 @@
+resultdetailからsearchresultへの戻るボタン
+updateからresultdetailへの戻るボタン
+updateresultからresultdetailへの戻るボタン
+deleteresultからsearchresultへの戻るボタン
+
+直リンク防止
+
+
+search:
+search.jsp:
+
+searchresult:全件表示、複合検索
+searchresult.jsp:ID昇順表示
+
+resultdetail:style前スペース　
+resultdetail.jsp:searchresultへ戻るボタン
+
+update:中身　すでにあるデータの更新　フォーム内容を書き換え
+update.jsp:送信ボタン　詳細画面へ戻るボタン
+
+updateresult:中身　DBに値を挿入　
+updateresult.jsp:</body>重複　「以上の内容で更新しました。」詳細画面へ戻るボタン　接続失敗カバー
+
+delete:中身　resultdetailで表示されていたレコードを削除
+delete.jsp:style前スペース　対象のレコードを全表示　本当に削除しますか　はいいいえ
+
+deleteresult:中身　アクセスした段階でIDによる削除実行
+deleteresult.jsp:　削除しましたという一文　失敗時のカバー　検索結果に戻るボタン
